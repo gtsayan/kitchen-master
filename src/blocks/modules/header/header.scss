@@ -1,0 +1,161 @@
+.header {
+
+    width: 100%;
+    margin: 0 auto;
+    background-color: $bg;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav {
+    width: 100%;
+    max-width: 740px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 20px 50px;
+
+}
+
+.header__nav-part1 {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-item {
+    opacity: 0.6;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "ProximaNova-Regular";
+
+    &:first-child {
+        font-family: "Proxima Nova";
+
+    }
+}
+
+.header__nav-kitchen-master {
+    color: #f39c12;
+    font-family: Novecentowide;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 0 45px;
+    white-space: nowrap;
+}
+
+.header__nav-part3 {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__intro {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 385px;
+    text-align: center;
+}
+
+.header__intro-imgtop {
+
+    height: 40px;
+    background: url(../../../img/header/imgtop.png) no-repeat;
+    background-position: center;
+}
+
+.no-rules {
+    color: #ffffff;
+    font-family: "Ostrich Sans";
+    font-size: 96px;
+    font-weight: 700;
+    width: 386px;
+    height: 123px;
+    overflow: hidden;
+
+
+}
+
+.header__intro-imgmid {
+
+    height: 60px;
+    background: url(../../../img/header/imgmid.png) no-repeat;
+    background-position: center;
+}
+
+.Dont-be-afraid {
+    color: #ffffff;
+    font-family: Novecentowide;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.to-do-whatever {
+    color: #ffffff;
+    font-family: "Lavanderia - Sturdy";
+    font-size: 42px;
+    font-weight: 400;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: url(../../../img/header/watever.svg);
+        top: -25%;
+        left: 45px;
+    }
+
+    &::after {
+        position: absolute;
+        content: url(../../../img/header/watever.svg);
+        top: -25%;
+        right: 55px;
+    }
+}
+
+.you-want {
+    color: #ffffff;
+    font-size: 53px;
+    font-weight: 700;
+    font-family: "Novecentowide";
+}
+
+.Cooking {
+    color: #ffffff;
+    font-family: Neou;
+    font-size: 61px;
+    font-weight: 700;
+}
+
+.doesnt-have {
+    color: #ffffff;
+    font-family: "Ostrich Sans";
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.header__intro-imgbot {
+
+    height: 60px;
+    background: url(../../../img/header/imgbot.png) no-repeat;
+    background-position: center;
+}
+
+.header__triangle {
+    width: 100%;
+    height: 215px;
+    border-style: solid;
+
+    border-width: 0 0 215px 100vw;
+    border-color: transparent transparent #fff transparent;
+}

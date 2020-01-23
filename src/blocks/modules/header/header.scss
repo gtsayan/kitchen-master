@@ -3,26 +3,38 @@
     width: 100%;
     margin: 0 auto;
     background-color: $bg;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
+    padding: 0 20px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+@media (max-width: 790px) {}
+
 .header__nav {
     width: 100%;
     max-width: 740px;
     display: flex;
+    // flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 60px 20px 50px;
+    padding: 60px 0px 50px;
 
+}
+
+@media (max-width: 790px) {
+    .header__nav {
+        flex-direction: column;
+        padding: 10px 0px 10px;
+    }
 }
 
 .header__nav-part1 {
     width: 200px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -35,11 +47,13 @@
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Proxima Nova";
+}
 
-    // &:first-child {
-    //     font-family: "Proxima Nova";
+@media (max-width: 790px) {
+    .header__nav-item {
 
-    // }
+        padding-top: 10px;
+    }
 }
 
 .header__nav-kitchen-master {
@@ -53,9 +67,18 @@
     white-space: nowrap;
 }
 
+@media (max-width: 790px) {
+    .header__nav-kitchen-master {
+        order: -1;
+        font-size: 30px;
+    }
+}
+
 .header__nav-part3 {
     width: 200px;
     display: flex;
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -79,11 +102,21 @@
     font-family: "Ostrich Sans Bold";
     font-size: 96px;
     font-weight: 700;
-    width: 386px;
-    height: 123px;
+    // width: 386px;
+    height: 125px;
     overflow: hidden;
+}
 
+// @media (max-width: 790px) {
+//     .no-rules {
 
+//     }
+// }
+
+@media (max-width: 400px) {
+    .no-rules {
+        height: 108px;
+    }
 }
 
 .header__intro-imgmid {
@@ -93,11 +126,18 @@
     background-position: center;
 }
 
-.Dont-be-afraid {
+.dont-be-afraid {
     color: #ffffff;
     font-family: Novecentowide;
     font-size: 33px;
     font-weight: 700;
+}
+
+@media (max-width: 400px) {
+    .dont-be-afraid {
+        font-size: 30px;
+        margin-top: 10px;
+    }
 }
 
 .to-do-whatever {
@@ -122,11 +162,31 @@
     }
 }
 
+@media (max-width: 400px) {
+    .to-do-whatever {
+        font-size: 42px;
+
+        &::before {
+            left: -7px;
+        }
+
+        &::after {
+            right: -4px;
+        }
+    }
+}
+
 .you-want {
     color: #ffffff;
     font-size: 53px;
     font-weight: 700;
     font-family: "Novecentowide";
+}
+
+@media (max-width: 400px) {
+    .you-want {
+        font-size: 45px;
+    }
 }
 
 .Cooking {
@@ -158,4 +218,10 @@
 
     border-width: 0 0 215px 100vw;
     border-color: transparent transparent #fff transparent;
+}
+
+@media (max-width: 790px) {
+    .header__triangle {
+        display: none;
+    }
 }

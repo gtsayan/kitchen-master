@@ -3,10 +3,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 776px;
+
     background-color: $bg;
     overflow: hidden;
     position: relative;
+    margin-bottom: 23px;
 
     &::before {
         content: "";
@@ -45,7 +46,7 @@
 .register__text {
     opacity: 0.8;
     color: #ffffff;
-    font-family: "Ostrich Sans Black";
+    font-family: "Ostrich Sans";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
@@ -55,6 +56,7 @@
 
 .register__btn {
     color: #2ecc71;
+    font-family: "Proxima Nova";
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;

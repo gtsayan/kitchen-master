@@ -1,0 +1,18 @@
+<svg width="380" height="59.99999999999999" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="62" width="382" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line stroke="#a1a1a1" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="17.720807" x2="379.988526" y1="17.720807" x1="199.238516" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="18.228422" x2="199.999933" y1="47.228422" x1="199.999933" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#a1a1a1" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="17.208123" x2="379.187714" y1="0.208123" x1="379.187714" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#a1a1a1" fill="none"/>
+  <line stroke="#a1a1a1" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="46.36627" x2="199.51776" y1="17.43227" x1="161.19291" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="17.766494" x2="161.776649" y1="17.766494" x1="1.776649" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#a1a1a1" fill="none"/>
+ </g>
+</svg>

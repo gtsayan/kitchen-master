@@ -34,12 +34,12 @@
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "ProximaNova-Regular";
+    font-family: "Proxima Nova";
 
-    &:first-child {
-        font-family: "Proxima Nova";
+    // &:first-child {
+    //     font-family: "Proxima Nova";
 
-    }
+    // }
 }
 
 .header__nav-kitchen-master {
@@ -76,7 +76,7 @@
 
 .no-rules {
     color: #ffffff;
-    font-family: "Ostrich Sans";
+    font-family: "Ostrich Sans Bold";
     font-size: 96px;
     font-weight: 700;
     width: 386px;

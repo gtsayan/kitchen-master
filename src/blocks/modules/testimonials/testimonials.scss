@@ -1,0 +1,93 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonials__title {
+    color: #000000;
+    font-family: "Ostrich Sans";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 67px;
+}
+
+.testimonials__inner {
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.testimonials__left {}
+
+.testimonials__left .testimonials__item {
+    &:last-child {
+        margin-top: 80px;
+    }
+}
+
+.testimonials__text {
+    max-width: 368px;
+    color: #2a323a;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.testimonials__signature {
+    display: flex;
+    justify-content: flex-end;
+    background: url(../../../img/svg/testimonials-item-decor.svg) no-repeat;
+    background-position: 0 0px;
+    background-size: contain;
+    padding-top: 20px;
+}
+
+.testimonials__signature-inner {
+    display: flex;
+
+    align-items: flex-start;
+    width: 46%;
+    margin-top: 15px;
+}
+
+.testimonials__signature-round {
+    width: 47px;
+    height: 47px;
+    background-color: #000000;
+    border-radius: 100%;
+}
+
+.testimonials__signature-container {
+    padding: 9px 0 0 10px;
+    margin-right: -5px;
+}
+
+
+.testimonials__signature-name {
+    color: #2a323a;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.testimonials__signature-text {
+    color: #898989;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.testimonials__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

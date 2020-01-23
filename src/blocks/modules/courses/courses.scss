@@ -7,6 +7,12 @@
     margin-bottom: 125px;
 }
 
+@media (max-width: 790px) {
+    .courses {
+        margin-bottom: 20px;
+    }
+}
+
 .courses__inner {
     width: 100%;
     max-width: 780px;
@@ -22,6 +28,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 790px) {
+    .courses__item1 {
+        flex-direction: column;
+    }
+
+    .courses__item2 {
+        flex-direction: column;
+    }
 }
 
 .courses__item2 {
@@ -46,6 +62,16 @@
 
 }
 
+@media (max-width: 790px) {
+    .courses__info-title {
+        text-align: center;
+    }
+
+    .courses__info-text {
+        margin-bottom: 20px;
+    }
+}
+
 .courses__info-text {
     color: #222222;
     font-family: "Proxima Nova";
@@ -58,4 +84,11 @@
     width: 300px;
     height: 210px;
     background-color: $bg;
+}
+
+@media (max-width: 790px) {
+    .courses__img {
+        order: -1;
+        margin-bottom: 20px;
+    }
 }

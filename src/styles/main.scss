@@ -12,6 +12,7 @@
 * {
     box-sizing: border-box;
     // border: 1px solid red;
+    transition: all .3s linear;
 }
 
 // body {}
@@ -22,7 +23,16 @@
     max-width: 1620px;
     margin: 0 auto;
     // background-color: $bg;
-    padding: 0 20px;
+    // padding: 0 20px;
     font-size: 16px;
 
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        opacity: .7;
+        transform: scale(1.2);
+    }
 }
